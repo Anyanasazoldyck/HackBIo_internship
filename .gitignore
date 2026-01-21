@@ -1,0 +1,7 @@
+.Rhistory
+*.Rproj
+.Rproj.user/shared/notebooks/paths
+.Rproj.user/16AC3733/sources/per/t/09F3CA2A-contents
+*.pper
+/.Rproj.user/16AC3733
+.Rproj.user/shared/notebooks/patch-chunk-names
