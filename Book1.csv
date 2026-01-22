@@ -1,0 +1,21 @@
+Amino Acid,three_letter_Code,one_letter_Code,Weight_inDA
+Alanine,Ala,A,89.09
+Arginine,Arg,R,174.2
+Asparagine,Asn,N,132.12
+Aspartic Acid,Asp,D,133.1
+Cysteine,Cys,C,121.15
+Glutamic Acid,Glu,E,147.13
+Glutamine,Gln,Q,146.15
+Glycine,Gly,G,75.07
+Histidine,His,H,155.16
+Isoleucine,Ile,I,131.18
+Leucine,Leu,L,131.18
+Lysine,Lys,K,146.19
+Methionine,Met,M,149.21
+Phenylalanine,Phe,F,165.19
+Proline,Pro,P,115.13
+Serine,Ser,S,105.09
+Threonine,Thr,T,119.12
+Tryptophan,Trp,W,204.23
+Tyrosine,Tyr,Y,181.19
+Valine,Val,V,117.15
