@@ -1,6 +1,7 @@
 #libraries
 library(ggplot2)
 library(readxl)
+library(pheatmap)
 
 #setwd
 setwd("D:/HackBio")
@@ -81,6 +82,45 @@ ggplot (data, aes(x= log2(half_life),
   
 dev.off()
 ?geom_text
+#Task 3. Reproduce panel 2c: Heatmap across cell types and time####
+"Goal: Visualize temporal structure across immune compartments.
+
+Requirements:
+  
+  Read sheet c
+Convert to matrix correctly
+Build column annotations for:
+  CellType
+Time
+Cluster rows only, not columns
+Key thinking check:
+  
+  Why cluster genes but not time?"
+
+data <- read_xlsx("data/hb_stage_2.xlsx", sheet = "c")
+hm_mtx <- as.data.frame(data)
+rownames(hm_mtx)<- data$genes
+hm_mtx$genes<- NULL
+
+#add annotation
+samples <- colnames(hm_mtx)
+annotation_df <- data.frame(
+  Cell = stringr::str_extract(samples, "^[A-Za-z]+(?=n)"),
+  Time = stringr::str_extract(samples, "[0-9]+h$")
+)
+rownames(annotation_df) <- samples
+
+#add 
+annotation_df <- annotation_df[order(annotation_df$Cell, annotation_df$Time), ]
+hm_mtx <- hm_mtx[, rownames(annotation_df)]
+png("plots/Figure3c.png",res = 300, width = 300*10, height = 300*10)
+
+pheatmap(hm_mtx,
+         annotation_col  = annotation_df,
+         show_colnames = F, show_rownames = F,cluster_cols = F
+)
+dev.off()
+
 # Task 6: Reproduce panel 2f: Stacked proportions#####
 #import data
 
