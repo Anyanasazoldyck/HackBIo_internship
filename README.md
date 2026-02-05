@@ -12,7 +12,8 @@ last step is unit transformation to KDa.
 # stage 2 tutorial
 ## Part One
 ### Heatmap of top differentially expressed genes between HBR and UHR samples
-[Heatmap]("plots\figure1a.png")
+[Heatmap]("plots/figure1a.png")
+
 
 
 
