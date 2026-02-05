@@ -52,6 +52,5 @@ Clustering genes across time in each sample.
 
 ### Directed cell–cell interaction network
 ![Figure 2g](plots/Figure3g.png)
-The edge width describes the intensity of relationships between teo nodes. 
 
 
