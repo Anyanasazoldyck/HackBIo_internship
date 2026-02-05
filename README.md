@@ -10,6 +10,6 @@ last step is unit transformation to KDa.
 
 
 # stage 2 tutorial
-## Exploring microbacterial sensetivity test. 
-Data downloaded from ("https://raw.githubusercontent.com/HackBio-Internship/2025_project_collection/refs/heads/main/bacteria.csv").
-This is a csv file containing microbacterial testing result 
+## Part One
+### Heatmap of top differentially expressed genes between HBR and UHR samples
+[Heatmap]("plots/figure1a.png")
