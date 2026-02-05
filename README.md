@@ -30,8 +30,28 @@ last step is unit transformation to KDa.
 ### Density plot of area means for both diagnosis
 ![Figure 1f](plots/figure2f.png)
 
+## Part Three
+### Cell-type ratio distributions
+![Figure 2a](plots/Figure3a.png)
 
+### Half-life vs alpha-life scatter
+![Figure 2b](plots/Figure3b.png)
 
+### Heatmap across cell types and time
+Clustering genes across time in each sample. 
+![Figure 2c](plots/Figure3c.png)
 
+### Pathway enrichment heatmap
+![Figure 2d](plots/Figure3d.png)
+
+### Bubble plot of kinetic regimes
+![Figure 2e](plots/Figure3e.png)
+
+### Stacked proportions
+![Figure 2f](plots/Figure3f.png)
+
+### Directed cell–cell interaction network
+![Figure 2g](plots/Figure3g.png)
+The edge width describes the intensity of relationships between teo nodes. 
 
 
