@@ -12,8 +12,23 @@ last step is unit transformation to KDa.
 # stage 2 tutorial
 ## Part One
 ### Heatmap of top differentially expressed genes between HBR and UHR 
-![Figure 2A](plots/figure2a.png)
+![Figure 1a](plots/figure1a.png)
 
+### Vln plot of gene expression 
+![Figure 1b](plots/figure2a.png)
+
+## Part Two
+### Scatter plot of breast cancer tissue radius vs. texture
+![Figure 1c](plots/figure2c.png)
+
+### Correlation heatmap
+![Figure 1d](plots/figure2d.png)
+
+### Scatter plot of breast tissue smoothness vs. compactness 
+![Figure 1e](plots/figure2e.png)
+
+### Density plot of area means for both diagnosis
+![Figure 1f](plots/figure2f.png)
 
 
 
